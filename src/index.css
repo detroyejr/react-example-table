@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Fira+Mono&display=fallback');
+
+body {
+    margin: 0;
+    font-family: "Fira Mono", Consolas, Monaco, monospace;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+thead tr th {
+    border-bottom: 2px solid;
+    font-weight: normal;
+    text-align: left;
+    font-size: 11pt;
+    padding-left: 30px;
+    padding: 3px;
+}
+
+tbody tr {
+    border-style: solid;
+}
+
+thead tr th:hover {
+    background-color: #eeeeee;
+    padding: 3px;
+}
